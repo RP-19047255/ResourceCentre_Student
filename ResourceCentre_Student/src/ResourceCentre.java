@@ -201,7 +201,6 @@ public class ResourceCentre {
 
 		chromebookList.add(cb);
 		System.out.println("Chromebook added");
-
 	}
 	
 	//================================= Option 3 Loan =================================
@@ -217,7 +216,7 @@ public class ResourceCentre {
 				camcorderList.get(i).setDueDate(dueDate);
 				
 				isLoaned = true;
-				
+				 
 			}
 		}
 		return isLoaned;
@@ -226,7 +225,7 @@ public class ResourceCentre {
 		ResourceCentre.viewAllCamcorder(camcorderList);
 		String tag = Helper.readString("Enter asset tag > ");
 		String due = Helper.readString("Enter due date > ");
-		Boolean isLoaned =doLoanCamcorder(camcorderList, tag, due);
+		Boolean isLoaned =doLoanCamcorder(camcorderList, tag, due); 
 		if (isLoaned == false) {
 			System.out.println("Invalid asset tag");
 		} else {
