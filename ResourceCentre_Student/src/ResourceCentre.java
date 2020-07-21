@@ -23,6 +23,9 @@ public class ResourceCentre {
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
+				
+				
+				
 
 			} else if (option == 2) {
 				// Add a new item
@@ -160,7 +163,8 @@ public class ResourceCentre {
 		String output= String.format("%-10s %-30s %-10s %-10s %-20s\n", "ASSET TAG", "DESCRIPTION",
 				"AVAILABLE", "DUE DATE","OPERATING SYSTEM");
 		 output += retrieveAllChromebook(chromebookList);
-		System.out.println(output);  
+		System.out.println(output);   
+		
 		
 	}
 
