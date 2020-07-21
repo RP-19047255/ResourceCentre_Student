@@ -275,7 +275,7 @@ public class ResourceCentre {
 		} else {
 			System.out.println("Chromebook " + tag + " loaned out");
 		}
-//>>>>>>> branch 'master' of https://github.com/RP-19047255/ResourceCentre_Student.git
+
 		
 	}
 	
