@@ -124,13 +124,26 @@ public class ResourceCentreTest {
 	public void doLoanCamcorderTest() {
 		//fail("Not yet implemented");
 		// write your code here
-		
+		 // fail("Not yet implemented");
+		  // write your code here
+		  // Test if Item list is not null but empty, so that can loan item
+		  assertNotNull("Test if there is valid Camcorder arraylist to loan", camcorderList);
+
+		  ResourceCentre.doLoanCamcorder(camcorderList, cc1.getAssetTag(), cc1.getDueDate());
+
+		  // Test if item is been loaned
+		  assertTrue("Test if item is been loaned", cc1.getIsAvailable());
+
+		  // Test if item is not been loaned
+		  assertFalse("Test if item is been loaned", cc1.getIsAvailable());
 
 	}
 	
 	@Test
 	public void doLoanChromebookTest() {
 		
+		  // fail("Not yet implemented");
+		  // write your code here
 		  // fail("Not yet implemented");
 		  // write your code here
 		  // Test if Item list is not null but empty, so that can loan item
