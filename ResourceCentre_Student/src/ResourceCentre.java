@@ -217,6 +217,7 @@ public class ResourceCentre {
 	}
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		// write your code here
+		
 		ResourceCentre.retrieveAllChromebook(chromebookList);
 		String tag =  Helper.readString("Enter asset tag > ");
 		String due = Helper.readString("Enter due date > ");
