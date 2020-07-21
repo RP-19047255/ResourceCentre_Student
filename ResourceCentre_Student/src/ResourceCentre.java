@@ -223,7 +223,7 @@ public class ResourceCentre {
 				chromebookList.get(i).setDueDate(dueDate);
 				
 				isLoaned = true;
-			}
+				}
 			}
 			
 		return isLoaned;
