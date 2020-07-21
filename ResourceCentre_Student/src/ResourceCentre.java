@@ -194,12 +194,12 @@ public class ResourceCentre {
 	}	
 	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
 		// write your code here
-<<<<<<< HEAD
+
 		chromebookList.add(cb);
 		System.out.println("Chromebook added");
-=======
+
 		String str = "abd";
->>>>>>> branch 'master' of https://github.com/RP-19047255/ResourceCentre_Student.git
+
 	}
 	
 	//================================= Option 3 Loan =================================
@@ -251,7 +251,6 @@ public class ResourceCentre {
 	}
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		// write your code here
-<<<<<<< HEAD
 		ResourceCentre.viewAllChromebook(chromebookList);
         String tag = Helper.readString("Enter asset tag > ");
         String due = Helper.readString("Enter due date > ");
@@ -265,7 +264,7 @@ public class ResourceCentre {
             System.out.println("Chromebook " + tag + " loaned out");
 		
         }
-=======
+
 		ResourceCentre.retrieveAllChromebook(chromebookList);
 		String tag =  Helper.readString("Enter asset tag > ");
 		String due = Helper.readString("Enter due date > ");
@@ -276,7 +275,7 @@ public class ResourceCentre {
 		} else {
 			System.out.println("Chromebook " + tag + " loaned out");
 		}
->>>>>>> branch 'master' of https://github.com/RP-19047255/ResourceCentre_Student.git
+//>>>>>>> branch 'master' of https://github.com/RP-19047255/ResourceCentre_Student.git
 		
 	}
 	
